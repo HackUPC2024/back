@@ -12,6 +12,7 @@
   "dependencies": {
     "@prisma/client": "^5.13.0",
     "axios": "^1.6.8",
+    "csv-parse": "^5.5.5",
     "express": "^4.19.2"
   },
   "devDependencies": {
@@ -19,5 +20,8 @@
     "prisma": "^5.13.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
